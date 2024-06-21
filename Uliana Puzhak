@@ -1,0 +1,10 @@
+package main.java.com.magicvet;
+
+import main.java.com.magicvet.service.VetClinicService;
+
+public class Main {
+    public static void main(String[] args) {
+        VetClinicService vetClinicService = new VetClinicService();
+        vetClinicService.start();
+    }
+}
